@@ -21,7 +21,7 @@ const BANNER_IMGS = [
     require('../../asset/images/banner1.png'),  
     require('../../asset/images/banner2.png'),  
     require('../../asset/images/banner3.png')
-];  
+];
 export default class GoodsDetailPage extends Component {
   constructor(props) {
     super(props);
@@ -233,11 +233,40 @@ export default class GoodsDetailPage extends Component {
         </ScrollView>
         <View style={{
                 height: 40, 
-                backgroundColor: 'red', 
+                backgroundColor: 'white', 
+                borderTopWidth: 1,
+                borderColor: '#f2f2f2',
                 width: '100%',
                 position: 'absolute',
-                bottom: 0
+                bottom: 0,
+                flexDirection: 'row'
             }}>
+          <View style={{flex: 2,
+                backgroundColor: 'white',justifyContent: 'center'}}>
+            <TouchableOpacity style={{justifyContent: 'center', position:'relative', width: 60}}>
+              <Image 
+                  source={require('../../asset/images/3x/ic_cartx.png')}
+                  style={{width: 20, height: 20, 
+                      resizeMode: 'contain', marginLeft: 20}}
+                />
+              <View style={{
+                      padding:5,paddingTop:1, paddingBottom:1, 
+                      position: 'absolute', 
+                      right: 10, top: -5,
+                      backgroundColor: 'orange',
+                      borderRadius: 10}}>
+                <Text style={{fontSize: 10, color: 'white'}}>1</Text>
+              </View>
+            </TouchableOpacity>
+          </View>
+          <TouchableOpacity style={{flex: 1, backgroundColor: 'orange', 
+                      alignItems:'center', justifyContent: 'center'}}>
+            <Text style={{fontSize: 15, color: 'white', fontWeight: '700'}}>立即购买</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={{flex: 1, backgroundColor: 'black', 
+                      alignItems:'center', justifyContent: 'center'}}>
+            <Text style={{fontSize: 15, color: 'white', fontWeight: '700'}}>加入购物车</Text>
+          </TouchableOpacity>
         </View>
       </View>
     );
