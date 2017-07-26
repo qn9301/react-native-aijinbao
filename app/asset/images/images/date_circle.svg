@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="78" height="78" viewBox="0 0 78 78">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff9500;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="圈.svg" class="cls-1" d="M276,449.71a39,39,0,1,1-39,39A39,39,0,0,1,276,449.71Zm0,0.5a38.5,38.5,0,1,1-38.5,38.5A38.5,38.5,0,0,1,276,450.21Z" transform="translate(-237 -449.719)"/>
+</svg>

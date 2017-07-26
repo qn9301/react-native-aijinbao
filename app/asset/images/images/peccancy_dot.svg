@@ -1,0 +1,15 @@
+<svg id="dian.svg" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #ff9500;
+      }
+
+      .cls-1 {
+        opacity: 0.3;
+      }
+    </style>
+  </defs>
+  <circle id="椭圆_1" data-name="椭圆 1" class="cls-1" cx="13" cy="13" r="13"/>
+  <circle id="椭圆_1_拷贝" data-name="椭圆 1 拷贝" class="cls-2" cx="13" cy="13" r="8"/>
+</svg>

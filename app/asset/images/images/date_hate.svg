@@ -1,0 +1,22 @@
+<svg id="忌.svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff9500;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+    <filter id="filter" x="0" y="0" width="30" height="30" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="0" y="0" width="30" height="30" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzAiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCAzMCAzMCI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogdXJsKCNsaW5lYXItZ3JhZGllbnQpOwogICAgICB9CiAgICA8L3N0eWxlPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSIxNSIgeDI9IjE1IiB5Mj0iMzAiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZmY5NTAwIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2Y1NjIwMCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iMzAiIGhlaWdodD0iMzAiLz4KPC9zdmc+Cg=="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <circle id="椭圆_1_拷贝_3" data-name="椭圆 1 拷贝 3" class="cls-1" cx="15" cy="15" r="15"/>
+  <path id="忌" class="cls-2" d="M79.8,1139.71a6.538,6.538,0,0,1-.3,1.64,0.937,0.937,0,0,1-.98.46h-9.46a0.667,0.667,0,0,1-.76-0.68v-1.98h10.86v-5.32H65.681v1.82h11.64v1.72H66.441v4.5a1.574,1.574,0,0,0,1.82,1.74H78.8a2.546,2.546,0,0,0,2.02-.62,6.762,6.762,0,0,0,.74-2.72Zm-14.08,5.08a16.765,16.765,0,0,1-1.78,4.88l1.64,1.02a20.9,20.9,0,0,0,2.02-5.5Zm10.56,6.52a2.329,2.329,0,0,0,1.62-.52c0.36-.36.62-1.5,0.78-3.4l-1.82-.58a6.324,6.324,0,0,1-.3,2.3,0.662,0.662,0,0,1-.62.36h-4.5a0.8,0.8,0,0,1-.86-0.94v-3.78h-1.92v4.16q0,2.4,2.18,2.4h5.44Zm1.44-6.18a40.446,40.446,0,0,1,3.12,4.76l1.58-1.1a37.531,37.531,0,0,0-3.18-4.64Zm-5.96-.12a27.39,27.39,0,0,1,2.26,3.28l1.56-1.12a25.86,25.86,0,0,0-2.3-3.12Z" transform="translate(-57.906 -1127.72)"/>
+</svg>

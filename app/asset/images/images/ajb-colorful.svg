@@ -1,0 +1,70 @@
+<svg id="彩线.svg" xmlns="http://www.w3.org/2000/svg" width="750" height="6" viewBox="0 0 750 6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #fe9400;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #ff7043;
+      }
+
+      .cls-4 {
+        fill: #2fb8ac;
+      }
+
+      .cls-5 {
+        fill: #f2f2f2;
+      }
+    </style>
+  </defs>
+  <rect id="矩形_31" data-name="矩形 31" class="cls-1" width="750" height="6"/>
+  <path id="矩形_32_拷贝_5" data-name="矩形 32 拷贝 5" class="cls-2" d="M-1,370H9l-4,6H-5Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_7" data-name="矩形 32 拷贝 7" class="cls-3" d="M20,370H30l-4,6H16Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_6" data-name="矩形 32 拷贝 6" class="cls-4" d="M41,370H51l-4,6H37Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_8" data-name="矩形 32 拷贝 8" class="cls-2" d="M61,370H71l-4,6H57Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_8-2" data-name="矩形 32 拷贝 8" class="cls-3" d="M82,370H92l-4,6H78Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_8-3" data-name="矩形 32 拷贝 8" class="cls-4" d="M103,370h10l-4,6H99Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_9" data-name="矩形 32 拷贝 9" class="cls-2" d="M123,370h10l-4,6H119Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_9-2" data-name="矩形 32 拷贝 9" class="cls-3" d="M144,370h10l-4,6H140Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_9-3" data-name="矩形 32 拷贝 9" class="cls-4" d="M165,370h10l-4,6H161Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_9-4" data-name="矩形 32 拷贝 9" class="cls-2" d="M185,370h10l-4,6H181Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_9-5" data-name="矩形 32 拷贝 9" class="cls-3" d="M206,370h10l-4,6H202Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_9-6" data-name="矩形 32 拷贝 9" class="cls-4" d="M227,370h10l-4,6H223Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_10" data-name="矩形 32 拷贝 10" class="cls-2" d="M247,370h10l-4,6H243Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_10-2" data-name="矩形 32 拷贝 10" class="cls-3" d="M268,370h10l-4,6H264Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_10-3" data-name="矩形 32 拷贝 10" class="cls-4" d="M289,370h10l-4,6H285Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_10-4" data-name="矩形 32 拷贝 10" class="cls-2" d="M309,370h10l-4,6H305Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_10-5" data-name="矩形 32 拷贝 10" class="cls-3" d="M330,370h10l-4,6H326Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_10-6" data-name="矩形 32 拷贝 10" class="cls-4" d="M351,370h10l-4,6H347Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_10-7" data-name="矩形 32 拷贝 10" class="cls-2" d="M371,370h10l-4,6H367Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_10-8" data-name="矩形 32 拷贝 10" class="cls-3" d="M392,370h10l-4,6H388Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_10-9" data-name="矩形 32 拷贝 10" class="cls-4" d="M413,370h10l-4,6H409Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_10-10" data-name="矩形 32 拷贝 10" class="cls-2" d="M433,370h10l-4,6H429Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_10-11" data-name="矩形 32 拷贝 10" class="cls-3" d="M454,370h10l-4,6H450Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_10-12" data-name="矩形 32 拷贝 10" class="cls-4" d="M475,370h10l-4,6H471Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_12" data-name="矩形 32 拷贝 12" class="cls-4" d="M536,370h10l-4,6H532Z" transform="translate(0 -370)"/>
+  <path id="形状_3" data-name="形状 3" class="cls-5" d="M0,371v-1H750v1H0Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_11" data-name="矩形 32 拷贝 11" class="cls-2" d="M495,370h10l-4,6H491Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_11-2" data-name="矩形 32 拷贝 11" class="cls-3" d="M516,370h10l-4,6H512Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_11-3" data-name="矩形 32 拷贝 11" class="cls-2" d="M557,370h10l-4,6H553Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_11-4" data-name="矩形 32 拷贝 11" class="cls-3" d="M578,370h10l-4,6H574Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_11-5" data-name="矩形 32 拷贝 11" class="cls-4" d="M599,370h10l-4,6H595Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_11-6" data-name="矩形 32 拷贝 11" class="cls-2" d="M619,370h10l-4,6H615Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_11-7" data-name="矩形 32 拷贝 11" class="cls-3" d="M640,370h10l-4,6H636Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_11-8" data-name="矩形 32 拷贝 11" class="cls-4" d="M661,370h10l-4,6H657Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_11-9" data-name="矩形 32 拷贝 11" class="cls-2" d="M681,370h10l-4,6H677Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_11-10" data-name="矩形 32 拷贝 11" class="cls-3" d="M702,370h10l-4,6H698Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_11-11" data-name="矩形 32 拷贝 11" class="cls-4" d="M723,370h10l-4,6H719Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_11-12" data-name="矩形 32 拷贝 11" class="cls-2" d="M743,370h10l-4,6H739Z" transform="translate(0 -370)"/>
+  <path id="矩形_32_拷贝_11-13" data-name="矩形 32 拷贝 11" class="cls-3" d="M764,370h10l-4,6H760Z" transform="translate(0 -370)"/>
+  <path id="形状_3_拷贝" data-name="形状 3 拷贝" class="cls-5" d="M0,371v-1H750v1H0Z" transform="translate(0 -370)"/>
+</svg>

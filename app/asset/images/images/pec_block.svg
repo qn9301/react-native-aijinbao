@@ -1,0 +1,15 @@
+<svg id="jvxing.svg" xmlns="http://www.w3.org/2000/svg" width="653.156" height="248" viewBox="0 0 653.156 248">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect id="圆角矩形_2" data-name="圆角矩形 2" class="cls-1" x="14.156" width="639" height="248" rx="8" ry="8"/>
+  <path id="矩形_5" data-name="矩形 5" class="cls-2" d="M66.858,387L81,372.858,95.142,387,81,401.142Z" transform="translate(-66.844 -352)"/>
+</svg>

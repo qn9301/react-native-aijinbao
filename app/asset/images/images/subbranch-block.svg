@@ -1,0 +1,16 @@
+<svg id="色块.svg" xmlns="http://www.w3.org/2000/svg" width="363" height="151" viewBox="0 0 363 151">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #333;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #e25b47;
+      }
+    </style>
+  </defs>
+  <path id="矩形_5" data-name="矩形 5" class="cls-1" d="M194,360v-7H545V216h6V360H194Z" transform="translate(-188 -209)"/>
+  <rect id="矩形_5_拷贝" data-name="矩形 5 拷贝" class="cls-2" width="357" height="144"/>
+</svg>

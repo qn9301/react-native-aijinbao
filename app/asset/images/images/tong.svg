@@ -1,0 +1,22 @@
+<svg id="铜.svg" xmlns="http://www.w3.org/2000/svg" width="35.156" height="35.156" viewBox="0 0 35.156 35.156">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #ff8d5b;
+      }
+
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        font-size: 18px;
+        text-anchor: middle;
+        font-family: "PingFang SC";
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <path id="圆角矩形_2_拷贝_4" data-name="圆角矩形 2 拷贝 4" class="cls-1" d="M38.672,543.87H66.8a3.515,3.515,0,0,1,3.516,3.515V575.5a3.515,3.515,0,0,1-3.516,3.515H38.672a3.515,3.515,0,0,1-3.516-3.515V547.385A3.515,3.515,0,0,1,38.672,543.87ZM39,546H66a2,2,0,0,1,2,2v27a2,2,0,0,1-2,2H39a2,2,0,0,1-2-2V548A2,2,0,0,1,39,546Z" transform="translate(-35.156 -543.875)"/>
+  <text id="铜" class="cls-2" transform="translate(17.433 27.277) scale(1.406 1.406)">铜</text>
+</svg>

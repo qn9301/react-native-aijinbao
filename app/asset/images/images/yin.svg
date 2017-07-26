@@ -1,0 +1,20 @@
+<svg id="银.svg" xmlns="http://www.w3.org/2000/svg" width="35.156" height="35.156" viewBox="0 0 35.156 35.156">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bfbfbf;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        font-size: 18px;
+        fill: #b8b8b8;
+        text-anchor: middle;
+        font-family: "PingFang SC";
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <path id="圆角矩形_2_拷贝_3" data-name="圆角矩形 2 拷贝 3" class="cls-1" d="M38.672,452.87H66.8a3.515,3.515,0,0,1,3.516,3.515V484.5a3.515,3.515,0,0,1-3.516,3.515H38.672a3.515,3.515,0,0,1-3.516-3.515V456.385A3.515,3.515,0,0,1,38.672,452.87ZM39,455H66a2,2,0,0,1,2,2v27a2,2,0,0,1-2,2H39a2,2,0,0,1-2-2V457A2,2,0,0,1,39,455Z" transform="translate(-35.156 -452.875)"/>
+  <text id="银" class="cls-2" transform="translate(17.433 25.717) scale(1.406 1.406)">银</text>
+</svg>

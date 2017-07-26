@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="31.5" viewBox="0 0 30 31.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f2f2f2;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="0" y="0" width="30" height="31.5" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="1" in="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood result="flood" flood-color="#333" flood-opacity="0.5"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feGaussianBlur result="blur-2" stdDeviation="1" in="SourceAlpha"/>
+      <feFlood result="flood-2" flood-color="#fff" flood-opacity="0.44"/>
+      <feComposite result="composite-2" operator="out" in2="blur-2"/>
+      <feOffset result="offset-2" dy="1"/>
+      <feComposite result="composite-3" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-2" in2="blend"/>
+    </filter>
+  </defs>
+  <circle id="椭圆_1.svg" data-name="椭圆 1.svg" class="cls-1" cx="15" cy="15" r="15"/>
+</svg>

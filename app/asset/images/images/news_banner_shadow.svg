@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="750" height="396" viewBox="0 0 750 396">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="375" y1="396" x2="375" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-opacity="0.4"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect id="zhezhao2.SVG" class="cls-1" width="750" height="396"/>
+</svg>

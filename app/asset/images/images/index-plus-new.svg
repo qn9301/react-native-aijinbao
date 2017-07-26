@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="加号.svg" class="cls-1" d="M717.543,92.457H703.457v14.086a1.457,1.457,0,1,1-2.914,0V92.457H686.457a1.457,1.457,0,0,1,0-2.914h14.086V75.457a1.457,1.457,0,1,1,2.914,0V89.543h14.086A1.457,1.457,0,0,1,717.543,92.457Z" transform="translate(-685 -74)"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg id="pz.svg" xmlns="http://www.w3.org/2000/svg" width="221.906" height="163.844" viewBox="0 0 221.906 163.844">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a06700;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #712d08;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="矩形_31_拷贝" data-name="矩形 31 拷贝" class="cls-1" d="M412.9,408.675h12.048v99.917H412.9V408.675Z" transform="translate(-263.969 -344.75)"/>
+  <path id="矩形_32_拷贝" data-name="矩形 32 拷贝" class="cls-2" d="M419.934,408.675h5.017v99.917h-5.017V408.675Z" transform="translate(-263.969 -344.75)"/>
+  <path id="矩形_31" data-name="矩形 31" class="cls-1" d="M324.939,408.675h12.012v99.917H324.939V408.675Z" transform="translate(-263.969 -344.75)"/>
+  <path id="矩形_32" data-name="矩形 32" class="cls-2" d="M332.007,408.675h4.944v99.917h-4.944V408.675Z" transform="translate(-263.969 -344.75)"/>
+  <path id="矩形_29" data-name="矩形 29" class="cls-3" d="M263.965,344.748H485.889v59.936H263.965V344.748Z" transform="translate(-263.969 -344.75)"/>
+  <path id="矩形_30" data-name="矩形 30" class="cls-1" d="M263.965,404.684H485.889v9.959H263.965v-9.959Z" transform="translate(-263.969 -344.75)"/>
+  <path id="矩形_33" data-name="矩形 33" class="cls-4" d="M263.965,344.748H485.889v3.991H263.965v-3.991Z" transform="translate(-263.969 -344.75)"/>
+</svg>

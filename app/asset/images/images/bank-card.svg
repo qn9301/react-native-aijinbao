@@ -1,0 +1,17 @@
+<svg id="card.svg" xmlns="http://www.w3.org/2000/svg" width="690" height="184" viewBox="0 0 690 184">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #ff9500;
+        opacity: 0.5;
+      }
+    </style>
+  </defs>
+  <path id="圆角矩形_1" data-name="圆角矩形 1" class="cls-1" d="M30,447V271a8,8,0,0,1,8-8H712a8,8,0,0,1,8,8V447H30Z" transform="translate(-30 -263)"/>
+  <rect id="矩形_27" data-name="矩形 27" class="cls-2" y="183" width="690" height="1"/>
+</svg>
