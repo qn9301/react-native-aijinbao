@@ -16,6 +16,7 @@ import {
 var {height, width} = Dimensions.get('window');
 import NormalTop from '../public/NormalTop'
 import SlideComp from '../../components/Slide'
+import OrderPage from '../order/Order'
 var top_list = []
 const BANNER_IMGS = [  
     require('../../asset/images/banner1.png'),  
@@ -59,6 +60,14 @@ export default class GoodsDetailPage extends Component {
       this.setState({webviewHeight: parseInt(e.jsEvaluationValue.substr(1))})
     }
   } 
+
+  _gotoOrder(){
+    this.props.navigator.push({
+      component: OrderPage,
+      title: '订单详情',
+      passProps: { navigator: this.props.navigator, goodsId: this.props.goodsId, num: this.state.num,title: '订单详情'}
+    })
+  }
 
   render() {
     return (
@@ -260,7 +269,9 @@ export default class GoodsDetailPage extends Component {
             </TouchableOpacity>
           </View>
           <TouchableOpacity style={{flex: 1, backgroundColor: 'orange', 
-                      alignItems:'center', justifyContent: 'center'}}>
+                      alignItems:'center', justifyContent: 'center'}}
+                  onPress={this._gotoOrder.bind(this)}
+                >
             <Text style={{fontSize: 15, color: 'white', fontWeight: '700'}}>立即购买</Text>
           </TouchableOpacity>
           <TouchableOpacity style={{flex: 1, backgroundColor: 'black', 
