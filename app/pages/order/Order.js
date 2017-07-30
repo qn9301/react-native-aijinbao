@@ -17,6 +17,10 @@ var {height, width} = Dimensions.get('window');
 import NormalTop from '../public/NormalTop'
 import SlideComp from '../../components/Slide'
 import Icon from 'react-native-vector-icons/FontAwesome';
+const WEIXIN_PAY = require('../../asset/images/2x/ic_tixianweixinzhifu.png');
+const ZHIFUBAO_PAY = require('../../asset/images/2x/ic_tixianzhifubiao.png');
+const CHECKED = require('../../asset/images/3x/btn_xuanze_downx.png');
+const UN_CHECKED = require('../../asset/images/3x/btn_xuanze_upx.png')
 var top_list = [];
 export default class OrderPage extends Component {
   constructor(props) {
@@ -90,6 +94,86 @@ export default class OrderPage extends Component {
               <Text style={{fontSize: 13}}>爱金宝</Text>
             </View>
           </View>
+          <View style={{flexDirection: 'row', padding: 10, backgroundColor: 'white'}}>
+            <View style={{width: 90}}>
+              <Image 
+                style={{height: 80, width: 80, flex: 1, resizeMode: 'contain',
+                        borderWidth: 1, borderColor: '#f2f2f2'}}
+                source={require('../../asset/images/mall_coin_1.png')} /> 
+            </View>
+            <View style={{flex: 3, flexDirection: 'column', paddingTop: 5}}>
+              <Text>品茗图足银茶套装</Text>
+              <View style={{flexDirection: 'row', paddingTop: 5}}>
+                <Text style={{color: 'gray'}}>x1</Text>
+                <Text style={{marginLeft: 10, 
+                    backgroundColor: 'orange', 
+                    color: 'white',
+                    paddingLeft: 5,
+                    paddingRight: 5,
+                    fontSize: 12,
+                    paddingTop: 1.5
+                  }}>HOT</Text>
+              </View>
+            </View>
+            <View style={{flex: 1, paddingTop: 5}}>
+              <Text style={{color: 'orange'}}>￥8900</Text>
+            </View>
+          </View>
+          <View style={{width: width, borderBottomWidth: 1, borderColor: '#f2f2f2', backgroundColor: 'white'}}>
+            <Text style={{padding: 10}}>支付方式</Text>
+          </View>
+          <View style={{
+              flexDirection: 'row', 
+              width: '100%', 
+              alignItems: 'center', 
+              justifyContent: 'flex-start',
+              padding: 10,
+              backgroundColor: 'white', 
+            }}>
+            <View>
+              <Image style={{width: 30, height: 30, resizeMode: 'contain'}} source={WEIXIN_PAY}/>
+            </View>
+            <View style={{marginLeft: 10}}>
+              <Text>微信支付</Text>
+            </View>
+            <View style={{width: 20, position: 'absolute', right: 10}}>
+              <Image style={{width: 20, height: 20}} source={UN_CHECKED}/>
+            </View>
+          </View>
+          <View style={{
+              flexDirection: 'row', 
+              width: '100%', 
+              alignItems: 'center', 
+              justifyContent: 'flex-start',
+              padding: 10,
+              backgroundColor: 'white',
+              marginBottom: 10
+            }}>
+            <View>
+              <Image style={{width: 30, height: 30, resizeMode: 'contain'}} 
+                  source={ZHIFUBAO_PAY}/>
+            </View>
+            <View style={{marginLeft: 10}}>
+              <Text>支付宝支付</Text>
+            </View>
+            <View style={{width: 20, position: 'absolute', right: 10}}>
+              <Image style={{width: 20, height: 20}} source={UN_CHECKED}/>
+            </View>
+          </View>
+          <View style={{width: '100%', padding: 5, backgroundColor: 'white'}}>
+            <View style={{flexDirection: 'row', padding: 5}}>
+              <Text style={{flex: 3, color: 'gray'}}>商品总价：</Text>
+              <Text style={{flex: 1, textAlign: 'right'}}>￥8900.00</Text>
+            </View>
+            <View style={{flexDirection: 'row', padding: 5}}>
+              <Text style={{flex: 3, color: 'gray'}}>运费：</Text>
+              <Text style={{flex: 1, textAlign: 'right'}}>￥0.00</Text>
+            </View>
+            <View style={{flexDirection: 'row', padding: 5}}>
+              <Text style={{flex: 3, color: 'gray'}}>应付金额：</Text>
+              <Text style={{flex: 1, textAlign: 'right'}}>￥8900.00</Text>
+            </View>
+          </View>
         </ScrollView>
         <View style={{
                 height: 40, 
@@ -123,10 +207,8 @@ const styles = StyleSheet.create({
     overflow: 'visible',
     justifyContent: 'flex-start',
     flexDirection: 'column',
-    // flexWrap: 'wrap',
     alignItems: 'center',
     backgroundColor: '#f2f2f2'
-    // backgroundColor: 'green'
   },
   orange: {
     fontSize: 12,
