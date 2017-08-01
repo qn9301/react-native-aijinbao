@@ -77,7 +77,7 @@ export default class HomePage extends Component {
   render() {
     return (
       /*  主体  */
-      <View style={{width: width, height:height}}>
+      <View style={{width: width, height:height-20}}>
         <Animated.View style={[styles.leftMask,{left: this.state.maskLeft}]}>
           <View style={styles.leftLan}>
             <LeftSlide navigator={this.props.navigator}/>

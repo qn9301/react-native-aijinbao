@@ -17,10 +17,13 @@ var {height, width} = Dimensions.get('window');
 import NormalTop from '../public/NormalTop'
 import SlideComp from '../../components/Slide'
 import Icon from 'react-native-vector-icons/FontAwesome';
+import addressListPage from './AddressListPage';
+
 const WEIXIN_PAY = require('../../asset/images/2x/ic_tixianweixinzhifu.png');
 const ZHIFUBAO_PAY = require('../../asset/images/2x/ic_tixianzhifubiao.png');
 const CHECKED = require('../../asset/images/3x/btn_xuanze_downx.png');
-const UN_CHECKED = require('../../asset/images/3x/btn_xuanze_upx.png')
+const UN_CHECKED = require('../../asset/images/3x/btn_xuanze_upx.png');
+
 var top_list = [];
 export default class OrderPage extends Component {
   constructor(props) {
@@ -37,7 +40,17 @@ export default class OrderPage extends Component {
     alert('支付')
   }
 
+  // 地址列表
+  _addressListPage(){
+    this.props.navigator.push({
+      component: addressListPage,
+      title: '我的地址',
+      passProps: { navigator: this.props.navigator, title: '我的地址'}
+    })
+  }
+
   render() {
+    hasAddress = true;
     return (
       /*  主体  */
       <View style={{height: '100%'}}>
@@ -61,27 +74,62 @@ export default class OrderPage extends Component {
               <Text style={[styles.sendType, {backgroundColor: 'white', color:'gray'}]}>存金库</Text>
             </View>            
           </View>
-          <View style={{flexDirection: 'row', height: 80, borderColor: 'orange',
-                      backgroundColor: 'white', borderBottomWidth: 2, marginBottom: 8}}>
-            <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-              <Icon 
-                name="map-marker"
-                size={20}
-                color="orange"
-              />
-            </View>
-            <View style={{flex: 10, justifyContent: 'center'}}>
-              <Text style={{margin: 5}}>添加地址</Text>
-              <Text style={{margin: 5, color: 'gray'}}>add Address</Text>
-            </View>
-            <View style={{flex: 2, justifyContent: 'center', alignItems: 'center'}}>
-              <Icon 
-                name="angle-right"
-                size={20}
-                color="black"
-              />
-            </View>
-          </View>
+
+          {
+            hasAddress ?
+            <TouchableOpacity style={{flexDirection: 'row', height: 80, borderColor: 'orange',
+                        backgroundColor: 'white', borderBottomWidth: 2, marginBottom: 8}}
+                onPress={this._addressListPage.bind(this)}
+              >
+              <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+                <Icon 
+                  name="map-marker"
+                  size={20}
+                  color="orange"
+                />
+              </View>
+              <View style={{flex: 10, justifyContent: 'center'}}>
+                <View style={{flexDirection: 'row'}}>
+                  <Text style={{margin: 5, color: 'gray'}}>郑尼玛</Text>
+                  <Text style={{margin: 5}}>添加地址</Text>
+                </View>
+                <View style={{flexDirection: 'row'}}>
+                  <Text style={{margin: 5, color: 'gray'}}>[默认]</Text>
+                  <Text style={{margin: 5}}>立卡SD卡圣诞节爱了就爱的</Text>
+                </View>
+              </View>
+              <View style={{flex: 2, justifyContent: 'center', alignItems: 'center'}}>
+                <Icon 
+                  name="angle-right"
+                  size={20}
+                  color="black"
+                />
+              </View>
+            </TouchableOpacity>
+            :
+            <TouchableOpacity style={{flexDirection: 'row', height: 80, borderColor: 'orange',
+                        backgroundColor: 'white', borderBottomWidth: 2, marginBottom: 8}}>
+              <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+                <Icon 
+                  name="map-marker"
+                  size={20}
+                  color="orange"
+                />
+              </View>
+
+              <View style={{flex: 10, justifyContent: 'center'}}>
+                <Text style={{margin: 5}}>添加地址</Text>
+                <Text style={{margin: 5, color: 'gray'}}>add Address</Text>
+              </View>
+              <View style={{flex: 2, justifyContent: 'center', alignItems: 'center'}}>
+                <Icon 
+                  name="angle-right"
+                  size={20}
+                  color="black"
+                />
+              </View>
+            </TouchableOpacity>
+          }
           <View style={{flexDirection: 'row', height: 40, borderColor: '#f2f2f2',
               backgroundColor: 'white', borderBottomWidth: 1}}>
             <View style={{flex: 1, flexDirection: 'row', height: '100%', alignItems: 'center'}}>
