@@ -2,7 +2,7 @@
 ## 仿 `爱金宝` 微信端构建的rn项目
 **页面详情可通过关注`爱金宝微信公众号`来查看原页面效果**
 
-![image](https://raw.githubusercontent.com/qn9301/react-native-aijinbao/master/app/asset/2017-08-04 22_24_42.gif)
+![image](https://github.com/qn9301/react-native-aijinbao/blob/master/app/asset/2017-08-04%2022_24_42.gif)
 
 ---
 # 项目构建
