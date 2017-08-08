@@ -15,10 +15,10 @@ import LeftSlide from '../public/LeftSilde'
 import Icon from 'react-native-vector-icons/FontAwesome';
 const {width, height} = Dimensions.get('window');
 const ORDER = [
-  {icon: require('../../asset/images/3x/ic_daifukuanx.png'), comp: false, title: '待付款'},
-  {icon: require('../../asset/images/3x/ic_daifahuox.png'), comp: false, title: '待发货'},
-  {icon: require('../../asset/images/3x/ic_daishouhuox.png'), comp: false, title: '待收货'},
-  {icon: require('../../asset/images/3x/ic_daipingjiax.png'), comp: false, title: '待评价'}
+  {icon: require('../../asset/images/2x/a1x.png'), comp: false, title: '待付款'},
+  {icon: require('../../asset/images/2x/a2x.png'), comp: false, title: '待发货'},
+  {icon: require('../../asset/images/2x/a3x.png'), comp: false, title: '待收货'},
+  {icon: require('../../asset/images/2x/a4x.png'), comp: false, title: '待评价'}
 ];
 const CUNJINKU = [
   {icon: require('../../asset/images/2x/c1x.png'), comp: false, title: '提现记录'},
