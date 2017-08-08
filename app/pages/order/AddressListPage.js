@@ -30,6 +30,7 @@ export default class AddressListPage extends Component {
       num: this.props.num,
       list: [
         {
+          key: 1,
           id: 1,
           name: 'zyf',
           phone: 18888888888,
@@ -40,6 +41,7 @@ export default class AddressListPage extends Component {
           _default: 1
         },
         {
+          key: 2,
           id: 2,
           name: 'wyj',
           phone: 18888888888,
@@ -59,8 +61,7 @@ export default class AddressListPage extends Component {
     return (
         <View style={{width: width,  marginBottom: 5, backgroundColor: 'white'}}>
           <View style={{
-              flexDirection: 'row', padding: 10,
-              alignItems:'space-between', width: '100%', 
+              flexDirection: 'row', padding: 10, width: '100%', 
               backgroundColor:'white',borderBottomWidth: 1,
               borderColor: '#f2f2f2'
             }}>

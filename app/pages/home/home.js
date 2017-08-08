@@ -5,10 +5,12 @@ import {
   Text,
   ScrollView,
   View,
+  Image,
   TouchableOpacity,
   Animated,
   Dimensions
 } from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome';
 import TopPage from '../public/Top'
 import SlideComp from '../../components/Slide'
 import ClassifyPage from './classify'
@@ -80,7 +82,7 @@ export default class HomePage extends Component {
       <View style={{width: width, height:height-20}}>
         <Animated.View style={[styles.leftMask,{left: this.state.maskLeft}]}>
           <View style={styles.leftLan}>
-            <LeftSlide navigator={this.props.navigator}/>
+            <LeftSlide navigator={this.props.navigator} index={0}/>
           </View>
           <TouchableOpacity onPress={this._hideMask.bind(this)} style={styles.leftOpc}></TouchableOpacity>
         </Animated.View>
@@ -89,7 +91,29 @@ export default class HomePage extends Component {
           contentContainerStyle={styles.container}
           showsVerticalScrollIndicator={true}
           >
-            <TopPage _showMask={this._showMask.bind(this)} />
+            <TopPage _showMask={this._showMask.bind(this)}>
+              <View style={{flexDirection: 'row', width: '100%'}}>
+                <View style={{flex: 1}}></View>
+                <View style={styles.centerStyle}>
+                  <Image 
+                      source={require('../../asset/images/3x/shou34xxhdpi.png')} 
+                      style={{height:25, resizeMode: 'contain'}}
+                    />
+                </View>
+                <View style={styles.rightStyle}>
+                  <Icon 
+                    name="search"
+                    size={20}
+                    color="black"
+                  />
+                  <Icon 
+                    name="calendar-check-o"
+                    size={20}
+                    color="black"
+                  />
+                </View>
+              </View>
+            </TopPage>
             <SlideComp banners={BANNER_IMGS}/>
             <ClassifyPage navigator={this.props.navigator} />
             <TimeLimitPage />
@@ -131,5 +155,16 @@ const styles = StyleSheet.create({
   leftOpc: {
     width: width/3,
     height: height
+  },
+  centerStyle: {
+    flex: 3,
+    height: 30,
+    alignItems: 'center'
+  },
+  rightStyle: {
+    flex: 1,
+    height: 30,
+    flexDirection: 'row',
+    justifyContent: 'space-around'
   }
 });

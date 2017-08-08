@@ -67,7 +67,7 @@ export default class EditAddrPage extends Component {
           <NormalTop navigator={this.props.navigator} title={this.props.title}/>
           <View style={{width: width, marginBottom: 20,
           alignItems: 'center', borderTopWidth: 1,borderColor: '#f2f2f2', backgroundColor: 'white'}}>
-            <View style={{borderBottomWidth: 1, borderColor: '#f2f2f2',padding: 15, flexDirection: 'row', alignItems: 'space-between'}}>
+            <View style={{borderBottomWidth: 1, borderColor: '#f2f2f2',padding: 15, flexDirection: 'row'}}>
               <Text style={{flex: 1}}>收件人姓名</Text>
               <TextInput 
                 style={{flex: 1, textAlign: 'right', color: 'gray', fontSize: 14}} 
@@ -77,7 +77,7 @@ export default class EditAddrPage extends Component {
                 value={this.state.name}
                 />
             </View>
-            <View style={{borderBottomWidth: 1, borderColor: '#f2f2f2',padding: 15, flexDirection: 'row', alignItems: 'space-between'}}>
+            <View style={{borderBottomWidth: 1, borderColor: '#f2f2f2',padding: 15, flexDirection: 'row'}}>
               <Text style={{flex: 1}}>手机号码</Text>
               <TextInput 
                 style={{flex: 1, textAlign: 'right', color: 'gray', fontSize: 14}} 

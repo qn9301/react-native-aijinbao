@@ -11,43 +11,37 @@ import {
 var {height, width} = Dimensions.get('window');
 import home from '../home/home';
 import PandamallPage from '../pandamall/pandamall'
-const DATA = [
+import Ucenter from '../ucenter/Ucenter'
+var DATA = [
   {
     name: '首页',
-    checked: true,
     url: home
   },
   {
     name: '熊猫商城',
-    checked: false,
     url: PandamallPage
   },
   {
     name: '速办信用卡',
-    checked: false,
     url: false
   },
   {
     name: '便利生活',
-    checked: false,
     url: false
   },
   {
     name: '活动',
-    checked: false,
     url: false
   },
   {
     name: '个人中心',
-    checked: false,
-    url: false
+    url: Ucenter
   },
 ];
 export default class LeftSlide extends Component {
 
   constructor(props) {
     super(props);
-    const datas = this.props.datas;
     this.state = {};
   }
 
@@ -89,12 +83,12 @@ export default class LeftSlide extends Component {
                 <TouchableOpacity style={{
                   height: 32, width: '100%',
                   justifyContent: 'center',
-                  backgroundColor: val.checked ? '#f2f2f2': 'white',
+                  backgroundColor: key === this.props.index ? '#f2f2f2': 'white',
                   paddingLeft: 20
                 }}
                 onPress={() => this._gotoPage(val.url)}
                 >
-                  <Text style={[{fontSize: 14, color: val.checked ? '#aaa': 'black'}]}>{val.name}</Text>
+                  <Text style={[{fontSize: 14, color: key === this.props.index? '#aaa': 'black'}]}>{val.name}</Text>
                 </TouchableOpacity>
                 )
             })

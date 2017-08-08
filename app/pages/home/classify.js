@@ -10,14 +10,15 @@ import {
 } from 'react-native';
 var {height, width} = Dimensions.get('window');
 import PandamallPage from '../pandamall/pandamall'
+import UcenterPage from '../ucenter/Ucenter'
 const CLASS_LIST = [
   {'url': PandamallPage,'icon': require('../../asset/images/3x/shou28xxhdpi.png'), title:'熊猫商城', desc: '热卖'},
-  {'url': PandamallPage,'icon': require('../../asset/images/3x/shou29xxhdpi.png'), title:'闪电理财', desc: ''},
-  {'url': PandamallPage,'icon': require('../../asset/images/3x/shou30xxhdpi.png'), title:'速办信用卡', desc: '浦发'},
-  {'url': PandamallPage,'icon': require('../../asset/images/3x/shou31xxhdpi.png'), title:'便利生活', desc: ''},
-  {'url': PandamallPage,'icon': require('../../asset/images/3x/shou32xxhdpi.png'), title:'赛事', desc: '父亲节'},
-  {'url': PandamallPage,'icon': require('../../asset/images/3x/shou33xxhdpi.png'), title:'保险', desc: ''},
-  {'url': PandamallPage,'icon': require('../../asset/images/3x/shou34xxhdpi.png'), title:'个人中心', desc: ''},
+  {'url': false,'icon': require('../../asset/images/3x/shou29xxhdpi.png'), title:'闪电理财', desc: ''},
+  {'url': false,'icon': require('../../asset/images/3x/shou30xxhdpi.png'), title:'速办信用卡', desc: '浦发'},
+  {'url': false,'icon': require('../../asset/images/3x/shou31xxhdpi.png'), title:'便利生活', desc: ''},
+  {'url': false,'icon': require('../../asset/images/3x/shou32xxhdpi.png'), title:'赛事', desc: '父亲节'},
+  {'url': false,'icon': require('../../asset/images/3x/shou34xxhdpi.png'), title:'保险', desc: ''},
+  {'url': UcenterPage,'icon': require('../../asset/images/3x/shou33xxhdpi.png'), title:'个人中心', desc: ''},
 ];
 export default class ClassifyPage extends Component {
 
@@ -28,15 +29,17 @@ export default class ClassifyPage extends Component {
   }
 
   _renderList() {
-    return CLASS_LIST.map(item => this._renderItem(item));
+    return CLASS_LIST.map((item) => this._renderItem(item));
   }
 
-  _gotoPage(msg) {
-    this.props.navigator.push({
-      component: msg,
-      title: '熊猫商城',
-      passProps: { navigator: this.props.navigator }
-    })
+  _gotoPage(comp) {
+    if (comp){
+      this.props.navigator.push({
+        component: comp,
+        title: '熊猫商城',
+        passProps: { navigator: this.props.navigator }
+      })
+    }
   }
 
   _renderItem(data) {
